@@ -61,3 +61,91 @@ AI-High-Growth-Stock-Advisor/
 ├── requirements.txt
 ├── README.md
 └── presentation/          # Final presentation slides
+
+```
+
+🧩 Methodology
+1. Data Collection & Preparation
+
+Batch downloading of price history and fundamentals using yfinance
+Feature engineering (YoY growth rates, volatility metrics, momentum indicators, etc.)
+Handling missing values and outliers with domain-aware techniques
+
+2. Exploratory Data Analysis (EDA)
+
+Analysis of return distributions and identification of historical high-growth stocks
+Correlation between fundamentals and extreme returns
+Sector performance comparison
+Interactive Tableau dashboard for visual exploration
+
+3. Machine Learning
+
+Classification: Predict probability a stock will deliver 3x+ returns
+Regression: Estimate expected 5-year return percentage
+Models tested: XGBoost, LightGBM, Random Forest, and a basic LSTM for time-series
+Time-series cross-validation and realistic backtesting
+Model interpretability using SHAP values
+
+4. Generative AI Integration
+
+Built a RAG (Retrieval-Augmented Generation) chatbot using LangChain + Hugging Face
+The chatbot can answer questions such as:
+"Recommend high-growth stocks for a $40k investment"
+"What are the main risks?"
+"Why did the model recommend this stock?"
+
+
+5. Interactive Application
+
+Streamlit web app allowing users to:
+Input budget and risk tolerance
+View top recommended stocks with explanations
+Chat with the AI advisor
+Explore backtesting results
+
+
+📈 Key Insights from EDA
+(To be filled after completing notebook 02)
+
+Tech and semiconductor sectors dominated past 3x+ performers
+High revenue growth and reasonable PEG ratios were strong predictors
+High-return stocks often came with significantly higher volatility
+
+🏆 Results & Model Performance
+(To be filled after completing modeling notebook)
+
+Best performing model: XGBoost
+Key metrics: Precision@Top10, backtested portfolio performance vs benchmark
+Most important features according to SHAP: ...
+
+🚀 How to Run the Project
+Bash# 1. Clone the repository
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the Streamlit app (once built)
+streamlit run app/app.py
+🛠️ Technologies Used
+
+Data Collection: yfinance, pandas, numpy
+Visualization: Matplotlib, Seaborn, Tableau
+Machine Learning: scikit-learn, XGBoost, LightGBM
+Deep Learning: PyTorch (LSTM)
+Generative AI: LangChain, Hugging Face, Chroma/FAISS
+Web App: Streamlit
+Notebooks: Jupyter
+
+📝 Challenges & Learnings
+
+Stock markets are noisy and non-stationary — proper time-series validation is essential
+Extreme returns (3-4x in 5 years) are rare events → imbalanced classification problem
+Rate limits when scraping large amounts of data with yfinance
+Balancing ambitious goals with responsible risk communication
+
+📄 License & Disclaimer
+This project is for educational and portfolio purposes only.
+No warranty is provided. The outputs of this project should not be used for actual investment decisions.
+Investing involves substantial risk of loss.
