@@ -2,7 +2,7 @@
 # AI-Powered-High-Growth-Stock-Selector-Advisor
 A data-driven framework to identify and rank stocks with historically high multi-year growth potential,  while quantifying risk — applied to a hypothetical $30–50k investment scenario.  
 This is for educational purposes only and not investment advice.
-# 🚀 AI-Powered High-Growth Stock Selector & Advisor
+# AI-Powered High-Growth Stock Selector & Advisor
 
 
 
@@ -17,7 +17,7 @@ Instead of making random stock picks, I built an **end-to-end data-driven framew
 - Integrates a **Generative AI chatbot** to answer natural language questions about recommendations and risks
 - Provides an interactive prototype for exploring opportunities
 
-> **⚠️ Important Disclaimer**  
+> **Disclaimer**  
 > This is an **educational demonstration project only**. It is **NOT financial advice**. Past performance does **not** guarantee future results. Investing — especially with borrowed (leveraged) money — carries a **high risk of losing capital**, including total loss. Always consult a licensed financial advisor before making any investment decisions. Do not use this project to make real trading decisions.
 
 ## Business Problem & Objectives
@@ -42,7 +42,7 @@ Many retail investors dream of finding the next big winner but lack systematic, 
 
 All collected data is stored in the `data/` folder (raw and processed versions).
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```bash
 AI-High-Growth-Stock-Advisor/
@@ -64,7 +64,7 @@ AI-High-Growth-Stock-Advisor/
 
 ```
 
-🧩 Methodology
+Methodology
 1. Data Collection & Preparation
 
 Batch downloading of price history and fundamentals using yfinance
@@ -104,21 +104,21 @@ Chat with the AI advisor
 Explore backtesting results
 
 
-📈 Key Insights from EDA
+Key Insights from EDA
 (To be filled after completing notebook 02)
 
 Tech and semiconductor sectors dominated past 3x+ performers
 High revenue growth and reasonable PEG ratios were strong predictors
 High-return stocks often came with significantly higher volatility
 
-🏆 Results & Model Performance
+Results & Model Performance
 (To be filled after completing modeling notebook)
 
 Best performing model: XGBoost
 Key metrics: Precision@Top10, backtested portfolio performance vs benchmark
 Most important features according to SHAP: ...
 
-🚀 How to Run the Project
+ How to Run the Project
 Bash# 1. Clone the repository
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
@@ -138,7 +138,7 @@ Generative AI: LangChain, Hugging Face, Chroma/FAISS
 Web App: Streamlit
 Notebooks: Jupyter
 
-📝 Challenges & Learnings
+ Challenges & Learnings
 
 Stock markets are noisy and non-stationary — proper time-series validation is essential
 Extreme returns (3-4x in 5 years) are rare events → imbalanced classification problem
