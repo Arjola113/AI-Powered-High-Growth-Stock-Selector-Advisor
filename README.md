@@ -8,7 +8,7 @@ This is for educational purposes only and not investment advice.
 
 ##  Project Overview
 
-This project was born from a **personal goal**: exploring how data science and generative AI can help evaluate high-risk, high-reward investment opportunities. Specifically, I wanted to understand how one might approach investing a **$30,000–50,000 bank loan** into stocks with the potential to deliver **3–4x returns over 4–5 years**.
+This project was born from a **personal goal**: exploring how data science and generative AI can help evaluate high-risk, high-reward investment opportunities. Specifically, I wanted to understand how one might approach investing a **$30,000–50,000** into stocks with the potential to deliver **3–4x returns over 4–5 years**.
 
 Instead of making random stock picks, I built an **end-to-end data-driven framework** that:
 - Collects historical prices and fundamental data for hundreds of stocks
@@ -33,7 +33,7 @@ Many retail investors dream of finding the next big winner but lack systematic, 
 ## Dataset
 
 - **Primary Source**: `yfinance` (Yahoo Finance)
-- **Number of stocks**: ~400 US-listed stocks (S&P 500 + focused high-growth tickers in tech, AI, semiconductors, and biotech)
+- **Number of stocks**: ~500 US-listed stocks (S&P 500 + focused high-growth tickers in tech, AI, semiconductors, and biotech)
 - **Time range**: 2015 – present
 - **Data types**:
   - Daily historical prices (Open, High, Low, Close, Volume)
@@ -122,6 +122,6 @@ Rate limits when scraping large amounts of data with yfinance
 Balancing ambitious goals with responsible risk communication
 
 📄 License & Disclaimer
-This project is for educational and portfolio purposes only.
+This project is for educational purposes only.
 No warranty is provided. The outputs of this project should not be used for actual investment decisions.
 Investing involves substantial risk of loss.
