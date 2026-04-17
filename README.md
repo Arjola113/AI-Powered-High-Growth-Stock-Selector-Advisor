@@ -94,30 +94,6 @@ The chatbot can answer questions such as:
 "What are the main risks?"
 "Why did the model recommend this stock?"
 
-
-5. Interactive Application
-
-Streamlit web app allowing users to:
-Input budget and risk tolerance
-View top recommended stocks with explanations
-Chat with the AI advisor
-Explore backtesting results
-
-
-Key Insights from EDA
-(To be filled after completing notebook 02)
-
-Tech and semiconductor sectors dominated past 3x+ performers
-High revenue growth and reasonable PEG ratios were strong predictors
-High-return stocks often came with significantly higher volatility
-
-Results & Model Performance
-(To be filled after completing modeling notebook)
-
-Best performing model: XGBoost
-Key metrics: Precision@Top10, backtested portfolio performance vs benchmark
-Most important features according to SHAP: ...
-
  How to Run the Project
 Bash# 1. Clone the repository
 git clone https://github.com/yourusername/your-repo-name.git
